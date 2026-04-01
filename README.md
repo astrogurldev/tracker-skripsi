@@ -1,2 +1,2 @@
-# Tracker Skripsi - Calon S.Kom 2027
+# Tracker Skripsi 
 Aplikasi tracker progres skripsi sederhana berbasis React + Vite.
