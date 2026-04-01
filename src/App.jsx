@@ -145,7 +145,7 @@ const App = () => {
                 </>
               ) : (
                 <>
-                  <Music size={20} /> <span className="text-sm hidden sm:inline">Putar Musik Fokus</span>
+                  <Music size={20} /> <span className="text-sm hidden sm:inline">Putar</span>
                 </>
               )}
             </button>
