@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Plus, Trash2, ArrowRight, CheckCircle2, CircleDashed, Clock, StickyNote, GraduationCap, Calendar, Music, Pause } from 'lucide-react';
+import { ArrowRight, Calendar, CheckCircle2, CircleDashed, Clock, GraduationCap, Music, Pause, Plus, StickyNote, Trash2 } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
 
 const App = () => {
   // State untuk tugas dan catatan
@@ -23,7 +23,7 @@ const App = () => {
   
   // Audio Player State (Hardcoded Lofi Track)
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioSrc = "/music/lofi.mp3";
+  const audioSrc = "/public/music/lofi.mp3";
   const audioRef = useRef(null);
 
   // Simpan ke localStorage setiap ada perubahan
